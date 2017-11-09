@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yob-vf-TIU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zDF-dT-eNt">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -304,34 +304,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2jK-Ls-g3b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1231" y="-678"/>
-        </scene>
-        <!--開頭畫面-->
-        <scene sceneID="VS0-aG-ud3">
-            <objects>
-                <viewController title="開頭畫面" id="yob-vf-TIU" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="6he-dc-1HC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="開頭圖片" translatesAutoresizingMaskIntoConstraints="NO" id="QOS-hH-scp">
-                                <rect key="frame" x="-57" y="0.0" width="375" height="812"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfb-0w-kxs">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="zDF-dT-eNt" kind="show" id="igP-m6-qaK"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="l3T-A4-tR5"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wg2-iV-lLy" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2986" y="-680"/>
         </scene>
         <!--TAB主選單-->
         <scene sceneID="2d8-YS-ZYI">
@@ -939,7 +911,7 @@
                                 <rect key="frame" x="16" y="404" width="343" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">【長歌】門下字號
+                                <string key="text">【長歌】門下字號
 
 　　流霆：門主楊逸飛門下，靜水流霆。　　
 　　折仙：門主楊逸飛門下，仙凡折腰。　　
@@ -959,7 +931,7 @@
 【長歌門】地圖詩
 
 　　盛世末章演華音，漫漫長路岂獨吟，
-　　莫道樂崩人不古，甘為蒼生剖赤心。</mutableString>
+　　莫道樂崩人不古，甘為蒼生剖赤心。</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1151,7 +1123,7 @@
                                 <rect key="frame" x="16" y="404" width="343" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">【天策】門下字號
+                                <string key="text">【天策】門下字號
 
 　　如晦：萊國公杜如晦所領之營，明斷果敢。　　
 　　無忌：趙國公長孫無忌所領之營，所向披靡。　　
@@ -1174,7 +1146,7 @@
 【天策(戰亂)】地圖詩
 
 　　安史作逆山河破，胡騎渡洛雄關鎖，
-　　天策血戰誅逆賊，盡忠報國不顧身。</mutableString>
+　　天策血戰誅逆賊，盡忠報國不顧身。</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1683,7 +1655,6 @@
         <image name="藏劍門派圖-" width="46" height="69"/>
         <image name="長歌人物" width="756" height="534"/>
         <image name="長歌門派圖-" width="45" height="90"/>
-        <image name="開頭圖片" width="595" height="744"/>
         <image name="霸刀人物" width="756" height="534"/>
         <image name="霸刀門派圖-" width="67" height="60"/>
     </resources>
